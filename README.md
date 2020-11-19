@@ -1,6 +1,6 @@
 # first-order-motion-windows-gui
-
-* A simple Windows GUI coded in Tkinter(Tk) Python to interface with the popular [First-Order-Motion model](https://aliaksandrsiarohin.github.io/first-order-model-website/)
+* All credits to the creators of the popular [First-Order-Motion model](https://aliaksandrsiarohin.github.io/first-order-model-website/)
+* A simple Windows GUI coded in Tkinter(Tk) Python to interface with the Pytorch model
 * Pretty much a lazy effort to quickly setup this tool conveniently
 * [main_gui.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/main_gui.py) contains the main Tk code and initiates network inference. It has not been refactored and pretty messy 😬.
 * Only [demo.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/demo.py) and [animate.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/animate.py) from the [original repo]() are modified to interface with Tk.
