@@ -4,7 +4,8 @@
 * Pretty much a lazy effort to quickly setup this tool conveniently
 * [main_gui.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/main_gui.py) contains the main Tk code and initiates network inference. It has not been refactored and pretty messy 😬.
 * Only [demo.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/demo.py) and [animate.py](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/first-order-model/animate.py) from the [original repo]() are modified to interface with Tk.
-
+* [start.bat](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/start.bat) activates the virtual environment and initiates the GUI.
+* [hide.vbs](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/hide.vbs) executes [start.bat](https://github.com/FongYoong/first-order-motion-windows-gui/blob/master/start.bat) without showing the console/terminal.
 ***
 
 # Installation
