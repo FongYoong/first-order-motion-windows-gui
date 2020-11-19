@@ -1,0 +1,6 @@
+**/__pycache__
+**/inference_data
+**/*.mp4
+**/*.jpg
+**/*.tar
+**/venv
