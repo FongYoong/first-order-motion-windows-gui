@@ -1,3 +1,8 @@
+# Insert path to ensure custom modules get imported
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+##################################################
 import imageio
 import numpy as np
 import matplotlib.pyplot as plt
@@ -14,7 +19,6 @@ generator, kp_detector = load_checkpoints(config_path='config/vox-256.yaml',
 #Additions for image/video validation and display
 #import imghdr
 import magic
-import os
 from threading import Thread
 
 def GenerateVideo():
