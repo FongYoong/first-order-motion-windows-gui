@@ -4,6 +4,7 @@ import sys
 sys.path.insert(0, os.getcwd())
 ##################################################
 import imageio
+imageio.plugins.ffmpeg.download() # If ffmpeg is not installed
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
